@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testSuite" parallel="tests">
+    <test name="test1">
+        <parameter name="cap" value="chrome"></parameter>
+        <classes>
+            <class name="specs.SampleTest"></class>
+        </classes>
+    </test>
+    <test name="test2">
+        <parameter name="cap" value="ie"></parameter>
+        <classes>
+            <class name="specs.SampleTest"></class>
+        </classes>
+    </test>
+</suite>
